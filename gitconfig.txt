@@ -1,0 +1,8 @@
+[user]
+	name = Salvador Ortuño Ramirez
+	email = saora.mx@gmail.com
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	interactive = auto
