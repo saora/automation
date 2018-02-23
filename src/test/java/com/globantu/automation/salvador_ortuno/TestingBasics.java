@@ -10,7 +10,7 @@ import paquete.HomePage;
 public class TestingBasics {
 
     private WebDriver driver;
-
+//comentario
         @BeforeMethod
         public void before(){
             String baseURL="http://www.travelocity.com/";
