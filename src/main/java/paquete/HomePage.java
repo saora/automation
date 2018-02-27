@@ -52,7 +52,11 @@ public class HomePage {
     @FindBy(id = "flightModuleList")
     private WebElement departureList;
    @FindBy(xpath = "//div[@class='bold announce-able']")
+<<<<<<< HEAD
     private WebElement announce;
+=======
+   private WebElement announce;
+>>>>>>> actualizaciones
 
 
 
