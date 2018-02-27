@@ -39,8 +39,13 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="413">
               <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+=======
+            <state relative-caret-position="447">
+              <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -197,39 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestingBasics (4)">
-    <configuration name="TestingBasics (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="salvador_ortuno_automation_testing_basics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
-      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.TestingBasics" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestingBasics (2)">
     <configuration name="TestingBasics (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -263,6 +236,38 @@
       <listeners />
     </configuration>
     <configuration name="TestingBasics (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="salvador_ortuno_automation_testing_basics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
+      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.TestingBasics" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestingBasics" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
@@ -441,18 +446,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.TestingBasics (4)" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics (2)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics (1)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking (1)" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking (1)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestingBasics (4)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking (1)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics (1)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics (2)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestingBasics (2)" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics (4)" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -470,16 +475,10 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestingBasics - 2018.02.27 at 00h 37m 26s.xml">
+    <history-entry file="TestingBasics - 2018.02.27 at 01h 49m 46s.xml">
       <configuration name="TestingBasics" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_(1) - 2018.02.27 at 00h 32m 59s.xml">
-      <configuration name="TestingBasics (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics_(1) - 2018.02.27 at 01h 15m 00s.xml">
-      <configuration name="TestingBasics (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics_(2) - 2018.02.27 at 00h 46m 42s.xml">
+    <history-entry file="TestingBasics_(2) - 2018.02.27 at 02h 35m 17s.xml">
       <configuration name="TestingBasics (2)" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestingBasics_(4) - 2018.02.27 at 00h 34m 38s.xml">
@@ -492,6 +491,12 @@
       <configuration name="TestingBasics (4)" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestingBasics_(4) - 2018.02.27 at 01h 28m 04s.xml">
+      <configuration name="TestingBasics (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestingBasics_(4) - 2018.02.27 at 02h 12m 03s.xml">
+      <configuration name="TestingBasics (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestingBasics_(4) - 2018.02.27 at 02h 23m 08s.xml">
       <configuration name="TestingBasics (4)" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestingBasics_(5) - 2018.02.27 at 00h 39m 16s.xml">
@@ -538,7 +543,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3880435" sideWeight="0.20042644" order="0" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3880435" sideWeight="0.21321961" order="0" side_tool="true" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
@@ -548,15 +557,25 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5597015" order="10" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.55117273" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880435" sideWeight="0.79957354" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2185501" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3880435" sideWeight="0.78678036" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22068231" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+>>>>>>> master
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -973,8 +992,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="413">
           <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+=======
+        <state relative-caret-position="447">
+          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
