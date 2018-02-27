@@ -1,5 +1,6 @@
 package paquete;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -34,6 +35,26 @@ public class HomePage {
     private WebElement nextMonth;
     @FindBy(name = "sort")
     private WebElement dropDownListSort;
+
+    //results
+   @FindBy(xpath = "//span[@class='title-city-text']")
+   private WebElement lblDestination;
+   @FindBy(id = "departure-airport-1")
+   private WebElement departureR;
+    @FindBy(id = "arrival-airport-1")
+    private WebElement arrivalR;
+    @FindBy (className = "title-date-rtv")
+    private WebElement depDateR;
+    @FindBy (id = "round-trip-flight")
+    private WebElement rbtnRoundTrip;
+   @FindBy(id = "flightModuleList")
+    private WebElement flightsList;
+    @FindBy(id = "flightModuleList")
+    private WebElement departureList;
+   @FindBy(xpath = "//div[@class='bold announce-able']")
+    private WebElement announce;
+
+
 
     public void bookingProcess(String from, String to, int monthNumber, String dayOfMonth, String sortingBy, String adults, String childrens) {
         flightsTab.click();
@@ -74,6 +95,21 @@ public class HomePage {
         //agrego comentario
 
     }
+    public void validations() throws Exception{
+               // lblDestination.getText ();
+                        //org.junit.Assert.assertEquals ( "", lblDestination.getText ());
+
+                Assert.assertEquals ( "Data validation: ","Select your departure to Los Angeles",lblDestination.getText ()) ;
+                Assert.assertEquals ( "Departure date: ","Sun, May 20",depDateR.getText () );
+                Assert.assertTrue ( "Is selected: ", rbtnRoundTrip.isSelected () );
+                WebElement flightList = departureList;
+                List<WebElement> depList = flightList.findElements ( By.tagName ( "button" ) );
+                int size = depList.size ();
+                System.out.println ( "SIZE: "+depList.size () );
+                Thread.sleep(6000);
+                Assert.assertEquals ( "We couldn't find nay flights",true,depList.size ()>0 );
+            }
+
 
 
 }

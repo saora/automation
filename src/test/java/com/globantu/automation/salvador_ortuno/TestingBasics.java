@@ -21,9 +21,10 @@ public class TestingBasics {
         }
 
         @Test
-        public void test1BeginProcessOfBooking(){
+        public void test1BeginProcessOfBooking()throws Exception{
             HomePage homeP =  PageFactory.initElements(driver, HomePage.class);
             homeP.bookingProcess("LAS","LAX", 3, "20", "Duration (Shortest)", "1","0");
+            homeP.validations();
         }
         @AfterMethod
         public void tearDown()throws Exception{
