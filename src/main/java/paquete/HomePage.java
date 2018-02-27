@@ -1,5 +1,6 @@
 package paquete;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -34,6 +35,28 @@ public class HomePage {
     private WebElement nextMonth;
     @FindBy(name = "sort")
     private WebElement dropDownListSort;
+
+    //results
+   @FindBy(xpath = "//span[@class='title-city-text']")
+   private WebElement lblDestination;
+   @FindBy(id = "departure-airport-1")
+   private WebElement departureR;
+    @FindBy(id = "arrival-airport-1")
+    private WebElement arrivalR;
+    @FindBy (className = "title-date-rtv")
+    private WebElement depDateR;
+    @FindBy (id = "round-trip-flight")
+    private WebElement rbtnRoundTrip;
+   @FindBy(id = "flightModuleList")
+    private WebElement flightsList;
+    @FindBy(id = "flightModuleList")
+    private WebElement departureList;
+   @FindBy(xpath = "//div[@class='bold announce-able']")
+    private WebElement announce;
+   @FindBy(className = "no-outline")
+   private WebElement cboSort;
+
+
 
     public void bookingProcess(String from, String to, int monthNumber, String dayOfMonth, String sortingBy, String adults, String childrens) {
         flightsTab.click();
@@ -74,6 +97,28 @@ public class HomePage {
         //agrego comentario
 
     }
+    public void validations(String destination, String departureDate, String sortingBy, boolean successfulSerach, boolean roundTripSelected ) throws Exception{
+                Assert.assertEquals ( "Data validation: ","Select your departure to "+destination,lblDestination.getText ()) ;
+                System.out.println("First validation: "+"Select your departure to "+destination);
+                Assert.assertEquals ( "Departure date: ",departureDate,depDateR.getText () );
+                System.out.println("Second validation: "+departureDate);
+                Assert.assertEquals ( "Is selected: ",roundTripSelected, rbtnRoundTrip.isSelected ());
+                System.out.println("Third validation: Round trip radio button is selected");
+                WebElement flightList = departureList;
+                List<WebElement> depList = flightList.findElements ( By.tagName ( "button" ) );
+                Thread.sleep(3000);
+                Assert.assertEquals ( "We couldn't find nay flights",successfulSerach,depList.size ()>0 );
+                System.out.println("Fourth validation: Size elements "+depList.size());
+
+                WebElement element = cboSort;
+                Select sel = new Select(element);
+                //List<WebElement> options = sel.getOptions();
+                //System.out.println("Opcion seleccionada2: "+options.get(2).getText());
+                Assert.assertEquals("Sorting by: ",  sortingBy, sel.getFirstSelectedOption().getText());
+                System.out.println("Fifth validation: Order by "+sel.getFirstSelectedOption().getText());
+
+
+            }
 
 
 }

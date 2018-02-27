@@ -1,0 +1,23 @@
+[33mcommit 3447a81817bbed5d51636c0a54ecd684a71bf6de[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Salvador Ortuño Ramirez <salvador.ortuno@globant.com>
+Date:   Fri Feb 23 16:43:54 2018 -0600
+
+    se resuelve el bug 8045
+
+[33mcommit 9b79cb0ce07eb52d86741790de3be9b547b5cd6e[m[33m ([m[1;31mnuevafuncionalidad/nuevafuncionalidad[m[33m)[m
+Author: Salvador Ortuño Ramirez <salvador.ortuno@globant.com>
+Date:   Fri Feb 23 14:17:31 2018 -0600
+
+    genero nueva rama
+
+[33mcommit 755a5ca707ae34db3a450ec265a1e68b78af8f86[m
+Author: Salvador Ortuño Ramirez <salvador.ortuno@globant.com>
+Date:   Fri Feb 23 14:10:47 2018 -0600
+
+    agrego archivo
+
+[33mcommit 561c7da9165707651c1e5298213deb63ba7f96fc[m
+Author: Salvador Ortuño Ramirez <salvador.ortuno@globant.com>
+Date:   Fri Feb 23 14:01:03 2018 -0600
+
+    subo una prueba de mi proyecto de automatización

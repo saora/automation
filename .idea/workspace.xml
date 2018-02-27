@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b88f2caf-a357-4412-b22d-71e8ce9278b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/paquete/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/paquete/HomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java" afterPath="$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="TestingBasics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="436">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,8 +42,13 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="330">
               <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+=======
+            <state relative-caret-position="209">
+              <caret line="104" column="102" lean-forward="true" selection-start-line="104" selection-start-column="102" selection-end-line="104" selection-end-column="102" />
+>>>>>>> b76665db54a929129325ed1aed36e5a2f3e34069
               <folding />
             </state>
           </provider>
@@ -85,11 +92,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="152" />
-    <option name="y" value="78" />
-    <option name="width" value="1613" />
-    <option name="height" value="873" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="160" />
+    <option name="y" value="103" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -106,85 +113,81 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> b76665db54a929129325ed1aed36e5a2f3e34069
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="paquete" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="salvador_ortuno" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="salvador_ortuno_automation_testing_basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvador_ortuno_automation_testing_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4543726" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -208,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestingBasics (5)">
+  <component name="RunManager" selected="TestNG.TestingBasics (4)">
     <configuration name="TestingBasics (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -241,71 +244,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestingBasics (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="salvador_ortuno_automation_testing_basics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
-      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.TestingBasics" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestingBasics (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="salvador_ortuno_automation_testing_basics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
-      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.TestingBasics" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestingBasics (5)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestingBasics (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
@@ -353,6 +292,70 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestingBasics.test1BeginProcessOfBooking (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="salvador_ortuno_automation_testing_basics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
+      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.TestingBasics" />
+      <option name="METHOD_NAME" value="test1BeginProcessOfBooking" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestingBasics.test1BeginProcessOfBooking" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="salvador_ortuno_automation_testing_basics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
+      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.TestingBasics" />
+      <option name="METHOD_NAME" value="test1BeginProcessOfBooking" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -451,18 +454,18 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.TestingBasics (5)" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics (1)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics (2)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics (3)" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.TestingBasics (4)" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics (1)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking (1)" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestingBasics (5)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics (3)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics (2)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestingBasics (4)" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking (1)" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics (1)" />
       </list>
     </recent_temporary>
@@ -481,54 +484,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestingBasics - 2018.02.26 at 17h 31m 18s.xml">
+    <history-entry file="TestingBasics - 2018.02.27 at 01h 49m 46s.xml">
       <configuration name="TestingBasics" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_(2) - 2018.02.26 at 17h 41m 55s.xml">
+    <history-entry file="TestingBasics_(2) - 2018.02.27 at 00h 46m 42s.xml">
       <configuration name="TestingBasics (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_(3) - 2018.02.26 at 17h 46m 02s.xml">
-      <configuration name="TestingBasics (3)" configurationId="TestNG" />
+    <history-entry file="TestingBasics_(4) - 2018.02.27 at 00h 34m 38s.xml">
+      <configuration name="TestingBasics (4)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_(5) - 2018.02.26 at 17h 27m 27s.xml">
+    <history-entry file="TestingBasics_(4) - 2018.02.27 at 00h 51m 59s.xml">
+      <configuration name="TestingBasics (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestingBasics_(4) - 2018.02.27 at 01h 09m 30s.xml">
+      <configuration name="TestingBasics (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestingBasics_(4) - 2018.02.27 at 01h 28m 04s.xml">
+      <configuration name="TestingBasics (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestingBasics_(4) - 2018.02.27 at 02h 12m 03s.xml">
+      <configuration name="TestingBasics (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestingBasics_(4) - 2018.02.27 at 02h 23m 08s.xml">
+      <configuration name="TestingBasics (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestingBasics_(5) - 2018.02.27 at 00h 39m 16s.xml">
       <configuration name="TestingBasics (5)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_(5) - 2018.02.26 at 17h 29m 33s.xml">
-      <configuration name="TestingBasics (5)" configurationId="TestNG" />
+    <history-entry file="TestingBasics_test1BeginProcessOfBooking - 2018.02.27 at 00h 48m 52s.xml">
+      <configuration name="TestingBasics.test1BeginProcessOfBooking" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_(5) - 2018.02.26 at 17h 32m 48s.xml">
-      <configuration name="TestingBasics (5)" configurationId="TestNG" />
+    <history-entry file="TestingBasics_test1BeginProcessOfBooking - 2018.02.27 at 01h 06m 56s.xml">
+      <configuration name="TestingBasics.test1BeginProcessOfBooking" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_(5) - 2018.02.26 at 17h 49m 22s.xml">
-      <configuration name="TestingBasics (5)" configurationId="TestNG" />
+    <history-entry file="TestingBasics_test1BeginProcessOfBooking - 2018.02.27 at 01h 24m 00s.xml">
+      <configuration name="TestingBasics.test1BeginProcessOfBooking" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_(5) - 2018.02.26 at 17h 55m 07s.xml">
-      <configuration name="TestingBasics (5)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics_(5) - 2018.02.26 at 17h 56m 19s.xml">
-      <configuration name="TestingBasics (5)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics_(5) - 2018.02.26 at 18h 03m 50s.xml">
-      <configuration name="TestingBasics (5)" configurationId="TestNG" />
+    <history-entry file="TestingBasics_test1BeginProcessOfBooking_(1) - 2018.02.27 at 01h 21m 23s.xml">
+      <configuration name="TestingBasics.test1BeginProcessOfBooking (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="78" width="1613" height="873" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5533049" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14518318" sideWeight="0.2769923" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3880435" sideWeight="0.21002132" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1445946" sideWeight="0.72300774" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3880435" sideWeight="0.7899787" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32324532" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22068231" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+>>>>>>> b76665db54a929129325ed1aed36e5a2f3e34069
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -539,7 +556,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32702702" sideWeight="0.6021851" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -560,13 +576,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+          <folding />
+>>>>>>> b76665db54a929129325ed1aed36e5a2f3e34069
         </state>
       </provider>
     </entry>
@@ -800,8 +820,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestCases.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -932,8 +953,8 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestCases.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="436">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -942,8 +963,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="330">
           <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+=======
+        <state relative-caret-position="209">
+          <caret line="104" column="102" lean-forward="true" selection-start-line="104" selection-start-column="102" selection-end-line="104" selection-end-column="102" />
+>>>>>>> b76665db54a929129325ed1aed36e5a2f3e34069
           <folding />
         </state>
       </provider>
@@ -989,7 +1015,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
