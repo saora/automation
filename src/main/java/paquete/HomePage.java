@@ -97,20 +97,25 @@ public class HomePage {
         //agrego comentario
 
     }
-    public void validations() throws Exception{
-                Assert.assertEquals ( "Data validation: ","Select your departure to Los Angeles",lblDestination.getText ()) ;
-                Assert.assertEquals ( "Departure date: ","Sun, May 20",depDateR.getText () );
-                Assert.assertTrue ( "Is selected: ", rbtnRoundTrip.isSelected () );
+    public void validations(String destination, String departureDate, String sortingBy, boolean successfulSerach, boolean roundTripSelected ) throws Exception{
+                Assert.assertEquals ( "Data validation: ","Select your departure to "+destination,lblDestination.getText ()) ;
+                System.out.println("First validation: "+"Select your departure to "+destination);
+                Assert.assertEquals ( "Departure date: ",departureDate,depDateR.getText () );
+                System.out.println("Second validation: "+departureDate);
+                Assert.assertEquals ( "Is selected: ",roundTripSelected, rbtnRoundTrip.isSelected ());
+                System.out.println("Third validation: Round trip radio button is selected");
                 WebElement flightList = departureList;
                 List<WebElement> depList = flightList.findElements ( By.tagName ( "button" ) );
                 Thread.sleep(6000);
-                Assert.assertEquals ( "We couldn't find nay flights",true,depList.size ()>0 );
+                Assert.assertEquals ( "We couldn't find nay flights",successfulSerach,depList.size ()>0 );
+                System.out.println("Fourth validation: Size elements "+depList.size());
 
                 WebElement element = cboSort;
                 Select sel = new Select(element);
                 //List<WebElement> options = sel.getOptions();
                 //System.out.println("Opcion seleccionada2: "+options.get(2).getText());
-                Assert.assertEquals("Sorting by: ",  "Duration (Shortest)", sel.getFirstSelectedOption().getText());
+                Assert.assertEquals("Sorting by: ",  sortingBy, sel.getFirstSelectedOption().getText());
+                System.out.println("Fifth validation: Order by "+sel.getFirstSelectedOption().getText());
 
 
             }
