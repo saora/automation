@@ -29,7 +29,7 @@ public class TestingBasics {
         @AfterMethod
         public void tearDown()throws Exception{
             Thread.sleep(6000);
-            driver.quit();
+            driver.close();
         }
 
     }

@@ -53,6 +53,8 @@ public class HomePage {
     private WebElement departureList;
    @FindBy(xpath = "//div[@class='bold announce-able']")
     private WebElement announce;
+   @FindBy(className = "no-outline")
+   private WebElement cboSort;
 
 
 
@@ -96,18 +98,21 @@ public class HomePage {
 
     }
     public void validations() throws Exception{
-               // lblDestination.getText ();
-                        //org.junit.Assert.assertEquals ( "", lblDestination.getText ());
-
                 Assert.assertEquals ( "Data validation: ","Select your departure to Los Angeles",lblDestination.getText ()) ;
                 Assert.assertEquals ( "Departure date: ","Sun, May 20",depDateR.getText () );
                 Assert.assertTrue ( "Is selected: ", rbtnRoundTrip.isSelected () );
                 WebElement flightList = departureList;
                 List<WebElement> depList = flightList.findElements ( By.tagName ( "button" ) );
-                int size = depList.size ();
-                System.out.println ( "SIZE: "+depList.size () );
                 Thread.sleep(6000);
                 Assert.assertEquals ( "We couldn't find nay flights",true,depList.size ()>0 );
+
+                WebElement element = cboSort;
+                Select sel = new Select(element);
+                //List<WebElement> options = sel.getOptions();
+                //System.out.println("Opcion seleccionada2: "+options.get(2).getText());
+                Assert.assertEquals("Sorting by: ",  "Duration (Shortest)", sel.getFirstSelectedOption().getText());
+
+
             }
 
 
