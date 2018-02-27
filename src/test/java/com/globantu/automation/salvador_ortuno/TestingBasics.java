@@ -28,7 +28,7 @@ public class TestingBasics {
         }
         @AfterMethod
         public void tearDown()throws Exception{
-            Thread.sleep(6000);
+            Thread.sleep(3000);
             driver.close();
         }
 

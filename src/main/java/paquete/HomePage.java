@@ -106,7 +106,7 @@ public class HomePage {
                 System.out.println("Third validation: Round trip radio button is selected");
                 WebElement flightList = departureList;
                 List<WebElement> depList = flightList.findElements ( By.tagName ( "button" ) );
-                Thread.sleep(6000);
+                Thread.sleep(3000);
                 Assert.assertEquals ( "We couldn't find nay flights",successfulSerach,depList.size ()>0 );
                 System.out.println("Fourth validation: Size elements "+depList.size());
 

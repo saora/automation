@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b88f2caf-a357-4412-b22d-71e8ce9278b6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/paquete/HomePage.class" afterPath="$PROJECT_DIR$/target/classes/paquete/HomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/globantu/automation/salvador_ortuno/TestingBasics.class" afterPath="$PROJECT_DIR$/target/test-classes/com/globantu/automation/salvador_ortuno/TestingBasics.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/paquete/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/paquete/HomePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java" afterPath="$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="TestingBasics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="436">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +42,8 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="104" column="102" lean-forward="true" selection-start-line="104" selection-start-column="102" selection-end-line="104" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -934,8 +932,8 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestCases.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="436">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -944,8 +942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="104" column="102" lean-forward="true" selection-start-line="104" selection-start-column="102" selection-end-line="104" selection-end-column="102" />
           <folding />
         </state>
       </provider>
