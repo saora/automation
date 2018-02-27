@@ -52,11 +52,7 @@ public class HomePage {
     @FindBy(id = "flightModuleList")
     private WebElement departureList;
    @FindBy(xpath = "//div[@class='bold announce-able']")
-<<<<<<< HEAD
     private WebElement announce;
-=======
-   private WebElement announce;
->>>>>>> actualizaciones
 
 
 
@@ -113,7 +109,6 @@ public class HomePage {
                 Thread.sleep(6000);
                 Assert.assertEquals ( "We couldn't find nay flights",true,depList.size ()>0 );
             }
-
 
 
 }
