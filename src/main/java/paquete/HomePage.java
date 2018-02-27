@@ -2,10 +2,12 @@ package paquete;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import java.util.List;
+import java.util.Set;
 
 public class HomePage {
 
@@ -55,6 +57,17 @@ public class HomePage {
     private WebElement announce;
    @FindBy(className = "no-outline")
    private WebElement cboSort;
+   @FindBy(id = "flight-listing-container")
+   private WebElement fligModule;
+   @FindBy(id="flightModuleList")
+   private WebElement moduleList;
+
+   //Review Your Trip
+    @FindBy(xpath = "//div[@class='flex-card flex-tile details OD0']")
+    private WebElement departureSection1;
+
+    @FindBy(xpath = "//div[@class='flex-card flex-tile details OD1']")
+    private WebElement departureSection2;
 
 
 
@@ -115,7 +128,42 @@ public class HomePage {
                 //List<WebElement> options = sel.getOptions();
                 //System.out.println("Opcion seleccionada2: "+options.get(2).getText());
                 Assert.assertEquals("Sorting by: ",  sortingBy, sel.getFirstSelectedOption().getText());
+                Thread.sleep ( 3000 );
                 System.out.println("Fifth validation: Order by "+sel.getFirstSelectedOption().getText());
+            }
+
+            public void selectDeparture(int element1, int element3)throws Exception{
+                WebElement element = fligModule;
+                List<WebElement> optionsList = element.findElements ( By.tagName ( "button" ) );
+
+/*        for (int i=0; i<optionsList.size ();i++){
+            System.out.println ( "Opcion: "+i+"--> "+optionsList.get ( i ).getText ());
+        }*/
+                optionsList.get ( element1 ).click ();
+                Thread.sleep ( 3000 );
+
+                WebElement element2 = fligModule;
+                List<WebElement> optionsList2 = element2.findElements ( By.tagName ( "button" ) );
+                optionsList2.get ( element3 ).click ();
+
+            }
+
+            public void reviewYourTrip(WebDriver driver)throws Exception{
+        String parentHandle = driver.getWindowHandle ();
+        System.out.println ( "Parent Handle Window: "+parentHandle );
+
+                Set<String> handles = driver.getWindowHandles ();
+                for(String handle : handles){
+                    System.out.println ( handle );
+                    if(!handle.equals ( parentHandle )){
+                        driver.switchTo ().window ( handle );
+                        Thread.sleep ( 3000 );
+                        System.out.println ( "Datos en seccion 1: "+departureSection1.getText () );
+                        System.out.println ( "-------------------------------------------------------------------------" );
+                        System.out.println ( "Datos en seccion 2: "+departureSection2.getText () );
+
+                    }
+                }
 
 
             }

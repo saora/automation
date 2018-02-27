@@ -25,10 +25,12 @@ public class TestingBasics {
             HomePage homeP =  PageFactory.initElements(driver, HomePage.class);
             homeP.bookingProcess("LAS","LAX", 3, "20", "Duration (Shortest)", "1","0");
             homeP.validations("Los Angeles","Sun, May 20", "Duration (Shortest)",true, true);
+            homeP.selectDeparture (1,2);
+            homeP.reviewYourTrip (driver);
         }
         @AfterMethod
         public void tearDown()throws Exception{
-            Thread.sleep(3000);
+            Thread.sleep(6000);
             driver.close();
         }
 
