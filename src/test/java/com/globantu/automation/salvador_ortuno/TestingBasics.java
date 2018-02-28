@@ -7,6 +7,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import paquete.HomePage;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 public class TestingBasics {
 
     private WebDriver driver;
@@ -23,15 +26,20 @@ public class TestingBasics {
         @Test
         public void test1BeginProcessOfBooking()throws Exception{
             HomePage homeP =  PageFactory.initElements(driver, HomePage.class);
-            homeP.bookingProcess("LAS","LAX", 3, "20", "Duration (Shortest)", "1","0");
-            homeP.validations("Los Angeles","Sun, May 20", "Duration (Shortest)",true, true);
+            homeP.bookingProcess("LAS","LAX", "April 2018", "20", "October 2018","10","Duration (Shortest)", "1","0");
+            homeP.validations("Los Angeles","Fri, Apr 20", "Duration (Shortest)",true, true);
             homeP.selectDeparture (1,2);
             homeP.reviewYourTrip (driver);
+            homeP.tripSummary ();
+            homeP.verifyWhoIsTravelingPage ();
+
         }
+
+
         @AfterMethod
         public void tearDown()throws Exception{
-            Thread.sleep(6000);
-            driver.close();
+            Thread.sleep(3000);
+            driver.quit ();
         }
 
     }

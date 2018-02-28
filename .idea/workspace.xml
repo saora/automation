@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b88f2caf-a357-4412-b22d-71e8ce9278b6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/paquete/HomePage.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/paquete/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/paquete/HomePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java" afterPath="$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java" />
     </list>
@@ -32,8 +29,20 @@
       <file leaf-file-name="TestingBasics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="204">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalCurrentDate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/CalCurrentDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,9 +53,11 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="159" column="46" lean-forward="true" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
-              <folding />
+            <state relative-caret-position="266">
+              <caret line="156" column="50" lean-forward="true" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +89,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestCases.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/CalCurrentDate.java" />
         <option value="$PROJECT_DIR$/src/main/java/paquete/HomePage.java" />
       </list>
     </option>
@@ -90,10 +102,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2139" />
+    <option name="y" value="163" />
+    <option name="width" value="1167" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -202,72 +214,72 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestingBasics.test1BeginProcessOfBooking">
+  <component name="RunManager" selected="TestNG.CalCurrentDate.test1">
+    <configuration name="CalCurrentDate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="salvador_ortuno_automation_testing_basics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
+      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.CalCurrentDate" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="CalCurrentDate.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="salvador_ortuno_automation_testing_basics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
+      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.CalCurrentDate" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="TestingBasics (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="salvador_ortuno_automation_testing_basics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
-      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.TestingBasics" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestingBasics (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="salvador_ortuno_automation_testing_basics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.globantu.automation.salvador_ortuno" />
-      <option name="MAIN_CLASS_NAME" value="com.globantu.automation.salvador_ortuno.TestingBasics" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestingBasics (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.globantu.automation.salvador_ortuno.*" />
@@ -446,18 +458,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.TestingBasics" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics (3)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics (2)" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics (1)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics (1)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CalCurrentDate" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CalCurrentDate.test1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CalCurrentDate.test1" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.TestingBasics" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics (1)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestingBasics (2)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics (3)" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestingBasics.test1BeginProcessOfBooking" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.CalCurrentDate" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TestingBasics (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -475,64 +487,64 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestingBasics - 2018.02.27 at 16h 39m 34s.xml">
+    <history-entry file="CalCurrentDate - 2018.02.28 at 17h 34m 29s.xml">
+      <configuration name="CalCurrentDate" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalCurrentDate - 2018.02.28 at 17h 37m 41s.xml">
+      <configuration name="CalCurrentDate" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalCurrentDate_test1 - 2018.02.28 at 17h 35m 17s.xml">
+      <configuration name="CalCurrentDate.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalCurrentDate_test1 - 2018.02.28 at 17h 35m 50s.xml">
+      <configuration name="CalCurrentDate.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalCurrentDate_test1 - 2018.02.28 at 17h 38m 54s.xml">
+      <configuration name="CalCurrentDate.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalCurrentDate_test1 - 2018.02.28 at 17h 52m 58s.xml">
+      <configuration name="CalCurrentDate.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalCurrentDate_test1 - 2018.02.28 at 17h 57m 42s.xml">
+      <configuration name="CalCurrentDate.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestingBasics - 2018.02.28 at 17h 29m 27s.xml">
       <configuration name="TestingBasics" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics - 2018.02.27 at 16h 42m 29s.xml">
+    <history-entry file="TestingBasics - 2018.02.28 at 17h 32m 57s.xml">
       <configuration name="TestingBasics" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics - 2018.02.27 at 17h 39m 09s.xml">
+    <history-entry file="TestingBasics - 2018.02.28 at 17h 57m 07s.xml">
       <configuration name="TestingBasics" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics - 2018.02.27 at 17h 40m 09s.xml">
-      <configuration name="TestingBasics" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics - 2018.02.27 at 17h 46m 43s.xml">
-      <configuration name="TestingBasics" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics - 2018.02.27 at 17h 51m 10s.xml">
-      <configuration name="TestingBasics" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics_(1) - 2018.02.27 at 15h 48m 48s.xml">
+    <history-entry file="TestingBasics_(1) - 2018.02.28 at 17h 19m 22s.xml">
       <configuration name="TestingBasics (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_(1) - 2018.02.27 at 17h 49m 15s.xml">
-      <configuration name="TestingBasics (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics_(2) - 2018.02.27 at 17h 45m 50s.xml">
-      <configuration name="TestingBasics (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics_(3) - 2018.02.27 at 17h 43m 04s.xml">
-      <configuration name="TestingBasics (3)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics_(4) - 2018.02.27 at 16h 40m 30s.xml">
-      <configuration name="TestingBasics (4)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestingBasics_test1BeginProcessOfBooking - 2018.02.27 at 15h 53m 57s.xml">
+    <history-entry file="TestingBasics_test1BeginProcessOfBooking - 2018.02.28 at 17h 31m 39s.xml">
       <configuration name="TestingBasics.test1BeginProcessOfBooking" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestingBasics_test1BeginProcessOfBooking - 2018.02.27 at 17h 53m 28s.xml">
+    <history-entry file="TestingBasics_test1BeginProcessOfBooking - 2018.02.28 at 17h 42m 23s.xml">
       <configuration name="TestingBasics.test1BeginProcessOfBooking" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="172" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.48507464" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32297298" sideWeight="0.34575835" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47065216" sideWeight="0.30810234" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24324325" sideWeight="0.27763495" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47065216" sideWeight="0.69189763" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24324325" sideWeight="0.722365" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22068231" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26606685" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -555,19 +567,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -575,7 +581,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
           <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -591,7 +599,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,7 +627,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -653,7 +665,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -679,7 +693,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="51" column="75" lean-forward="false" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="75" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -707,7 +723,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -723,7 +741,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,7 +779,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -785,7 +807,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="51" column="75" lean-forward="false" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="75" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -814,7 +838,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="32" lean-forward="true" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -830,7 +856,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -856,7 +884,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -892,7 +922,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -918,7 +950,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="51" column="75" lean-forward="false" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="75" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -932,10 +966,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestCases.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/CalCurrentDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/globantu/automation/salvador_ortuno/TestingBasics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="204">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -944,9 +988,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/paquete/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="159" column="46" lean-forward="true" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="266">
+          <caret line="156" column="50" lean-forward="true" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
