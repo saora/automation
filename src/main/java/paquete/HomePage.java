@@ -69,6 +69,10 @@ public class HomePage {
     private WebElement fligModule;
     @FindBy(id = "flightModuleList")
     private WebElement moduleList;
+
+    @FindBy(className = "datepicker-cal-dates")
+    private WebElement daysCalendar;
+
     //Review Your Trip
     @FindBy(xpath = "//div[@class='flex-card flex-tile details OD0']")
     private WebElement departureSection1;
@@ -104,7 +108,7 @@ public class HomePage {
     @FindBy(id = "complete-booking")
     private WebElement btnCompleteBooking;
 
-    public void bookingProcess(String from, String to, String deparMonth, String deparDay, String returMonth, String returDay, String sortingBy, String adults, String childrens) throws Exception {
+    public void bookingProcess(String from, String to, String sortingBy, String adults, String childrens, int futureMonth) throws Exception {
         flightsTab.click ();
         //clicking on Flight/Roundtrip
         bntRoundTrip.click ();
@@ -113,9 +117,9 @@ public class HomePage {
         flyingTo.sendKeys ( to );
         //Moving to a future date (Dates should be at least two month in the future.)
         departingDate.click ();
-        selectMonth ( deparMonth,dateCalendarDep,deparDay );
+        selectMonth ( futureMonth );
         returningDate.click ();
-        selectMonth ( returMonth,dateCalendarRet,returDay );
+        selectMonth ( futureMonth+2 );
         //Selecting the number of adults ( adult)
         WebElement selAdults = adultsNumber;
         Select selAd = new Select ( selAdults );
@@ -132,34 +136,35 @@ public class HomePage {
         selSort.selectByVisibleText ( sortingBy );
     }
     //Selecting MONTH from calendar
-    private void selectMonth(String monthToSelect, WebElement dayCalendar, String dayToSelect){
+    private void selectMonth(int futureMonth){
         while (nextMonth.isDisplayed()) {
-            if(seldate.getText ().equals ( monthToSelect)) {
-                selectDate ( dayCalendar );
+            if(seldate.getText ().equals ( getFutureMonth (futureMonth))) {
+                selectDate ( daysCalendar );
                 break;
             }else{
                 nextMonth.click ();
             }
         }
+        System.out.println ( "Mes a seleccionar: "+getFutureMonth (futureMonth) );
     }
         //Selecting a DAY from month selected in the calendar
         private void selectDate(WebElement xpathSel){
-       String dayOfMonth=getCurrentMonth ();
         List<WebElement> validDates = xpathSel.findElements ( By.tagName ( "button" ) );
         for (WebElement date : validDates) {
-            if (date.getText ().equals ( dayOfMonth )) {
+            System.out.println ( "Dia: "+date.getText() );
+            if (date.getText ().equals ( "10" )) {
                 date.click ();
                 break;
             }
         }
     }
 
-    public static final String getCurrentMonth() {
+    private static String getFutureMonth(int futureMonth) {
         Calendar cal = Calendar.getInstance ();
-        cal.add ( Calendar.MONTH, 2 );
-        SimpleDateFormat dateformat = new SimpleDateFormat ( "MMM dd" );
-        String date = dateformat.format ( cal.getTime () );
-        return date;
+        cal.add ( Calendar.MONTH, futureMonth );
+        SimpleDateFormat dateformat = new SimpleDateFormat ( "MMM YYYY" );
+        return dateformat.format ( cal.getTime () );
+        //return date;
     }
 
     public void validations(String destination, String departureDate, String sortingBy, boolean successfulSerach, boolean roundTripSelected) throws Exception {
@@ -232,7 +237,7 @@ public class HomePage {
     }
     public void verifyWhoIsTravelingPage(){
         Assert.assertEquals ( "Validation 1: ","Who's traveling?",travelQ.getText () );
-        Assert.assertEquals ( "Validation 2: ","Protect your flight (recommended)",protectYourFlight.getText () );
+       // Assert.assertEquals ( "Validation 2: ","Recommended: Protect your flight",protectYourFlight.getText () );
         Assert.assertEquals ( "Validation 3: ","How would you like to pay?",paymentPreferences.getText () );
         Assert.assertEquals ( "Validation 4: ","Where should we send your confirmation?",sendConfirmation.getText () );
         Assert.assertTrue ( "Validation 5: ",btnCompleteBooking.isEnabled ());
