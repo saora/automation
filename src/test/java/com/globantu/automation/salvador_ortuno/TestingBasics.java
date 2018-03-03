@@ -27,7 +27,7 @@ public class TestingBasics {
         public void test1BeginProcessOfBooking()throws Exception{
             HomePage homeP =  PageFactory.initElements(driver, HomePage.class);
             homeP.bookingProcess("LAS","LAX",  "Duration (Shortest)", "1","0",2);
-            homeP.validations("Los Angeles","Thu, May 10", "Duration (Shortest)",true, true);
+            homeP.validations("Los Angeles","Wed, May 2", "Duration (Shortest)",true, true);
             homeP.selectDeparture (1,2);
             homeP.reviewYourTrip (driver);
             homeP.tripSummary ();

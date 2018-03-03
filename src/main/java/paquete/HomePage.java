@@ -119,7 +119,7 @@ public class HomePage {
         departingDate.click ();
         selectMonth ( futureMonth );
         returningDate.click ();
-        selectMonth ( futureMonth+2 );
+        selectMonth ( futureMonth );
         //Selecting the number of adults ( adult)
         WebElement selAdults = adultsNumber;
         Select selAd = new Select ( selAdults );
@@ -152,7 +152,7 @@ public class HomePage {
         List<WebElement> validDates = xpathSel.findElements ( By.tagName ( "button" ) );
         for (WebElement date : validDates) {
             System.out.println ( "Dia: "+date.getText() );
-            if (date.getText ().equals ( "10" )) {
+            if (date.getText ().equals ( getCurrentDay () )) {
                 date.click ();
                 break;
             }
@@ -164,7 +164,12 @@ public class HomePage {
         cal.add ( Calendar.MONTH, futureMonth );
         SimpleDateFormat dateformat = new SimpleDateFormat ( "MMM YYYY" );
         return dateformat.format ( cal.getTime () );
-        //return date;
+    }
+
+    private static String getCurrentDay(){
+        Calendar cal=Calendar.getInstance ();
+        SimpleDateFormat dateformat = new SimpleDateFormat ( "d" );
+        return dateformat.format ( cal.getTime () );
     }
 
     public void validations(String destination, String departureDate, String sortingBy, boolean successfulSerach, boolean roundTripSelected) throws Exception {
